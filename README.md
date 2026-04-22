@@ -1,24 +1,66 @@
 # Spatiotemporal Health Risk Modeling
 
-## Research Question
-How do spatial (county/state) and temporal (date) factors influence variation in health-related target values?
+This project explores how spatial, temporal, and demographic factors influence health-related target values using machine learning.
 
-## Motivation
-Understanding how health-related indicators vary across regions and time is critical for urban health and AI4City applications.
+The goal is to develop a simple spatiotemporal data analysis pipeline that integrates data exploration, visualization, and predictive modeling.
 
-## Data
-- Spatial variables: County, Province_State, Country_Region
-- Temporal variable: Date
-- Socio-demographic: Population, Weight
+---
+
+## Dataset
+
+The dataset contains spatiotemporal health indicators including:
+
+- County
+- Province/State
+- Country
+- Population
+- Date
+- Target
+- TargetValue
+
+These features allow exploration of spatial and temporal patterns in health-related outcomes.
+
+---
 
 ## Methods
-- Data preprocessing and cleaning
-- Correlation analysis of variables
-- Baseline machine learning model (Random Forest)
-- Visualization of spatiotemporal patterns
 
-## Key Insight
-Preliminary results show that population-weighted spatial features are associated with variation in target health outcomes.
+The workflow includes:
+
+1. Data exploration
+2. Feature preprocessing
+3. Correlation analysis
+4. Temporal trend visualization
+5. Machine learning prediction (Random Forest)
+
+---
+
+## Visualization
+
+### Feature Correlation
+
+![Correlation](figures/correlation.png)
+
+### Temporal Trend
+
+![Trend](figures/temporal_trend.png)
+
+### Prediction Performance
+
+![Prediction](figures/prediction.png)
+
+---
 
 ## Tools
-Python, Pandas, Scikit-learn, Matplotlib, Seaborn
+
+- Python
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+
+---
+
+## Author
+
+Yaru Zhou  
+M.Arch, National University of Singapore
