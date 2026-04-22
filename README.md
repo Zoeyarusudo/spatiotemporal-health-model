@@ -38,15 +38,13 @@ The workflow includes:
 
 ### Feature Correlation
 
-![Correlation](figures/correlation.png)
+
 
 ### Temporal Trend
 
-![Trend](figures/temporal_trend.png)
 
-### Prediction Performance
 
-![Prediction](figures/prediction.png)
+
 
 ---
 
